@@ -1,0 +1,8 @@
+{
+  "name": "leon/sigadea",
+  "description": "SIGADEA PHP app for Render",
+  "type": "project",
+  "require": {
+    "php": ">=8.1"
+  }
+}

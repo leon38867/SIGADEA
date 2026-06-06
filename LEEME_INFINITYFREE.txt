@@ -1,0 +1,31 @@
+SIGADEA configurado para InfinityFree
+======================================
+
+1. En InfinityFree entra a Bases de datos MySQL.
+2. Crea una nueva base de datos con este nombre:
+   sigadea_php
+
+   InfinityFree debe mostrarla como:
+   if0_42059142_sigadea_php
+
+3. Entra a phpMyAdmin de esa base de datos.
+4. Importa el archivo:
+   database.sql
+
+5. En el Administrador de archivos, entra a htdocs.
+6. Sube la carpeta completa:
+   SIGADEA
+
+7. Abre el sistema con:
+   https://TU-DOMINIO/SIGADEA/
+
+Usuario inicial:
+   admin
+
+Contraseña inicial:
+   admin
+
+IMPORTANTE:
+- Si tu base de datos queda con otro nombre, edita config/config.php.
+- No mezcles los archivos de SIGADEA con los del consultorio médico.
+- Cada sistema debe estar dentro de su propia carpeta en htdocs.
